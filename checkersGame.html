@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Checkers game</title>
+    <link rel="stylesheet" href="./checkersGame.css">
+</head>
+<body>
+    <div class="container">
+        <div class="board" id="board"></div>
+        <div class="menu" id="menu">
+            <button class="button" id="resignButton">Resign</button>
+            <button class="button" id="drawButton">Ask for a draw</button>
+        </div>
+    </div>
+    <div id ="modalBackground" class="modalBackground none">
+        <div id="modalDiv" class="modalDiv">  
+            <h1 class="headline" id="headline"></h1>
+            <hr />
+            <p class="paragraph" id="paragraph" ></p>
+            <div class="buttonsContainer" id="buttonsContainer">
+                <button class="yesNoButtons" id="yes">Yes</button>
+                <button class="yesNoButtons" id="no">No</button><br/>
+            </div>
+            <button class="resetButton" id="reset">Reset Game</button>
+        </div>
+    </div>
+    <script src="./checkersGame.js"></script>
+</body>
+</html>
